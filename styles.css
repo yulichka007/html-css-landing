@@ -1,4 +1,4 @@
-/* Скидання відступів і коректна обробка елементів */
+
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@ p {
     
 }
 
-/* Навігаційний бар */
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -58,19 +58,19 @@ p {
 .nav a {
     text-decoration: none;
     font-size: 25px;
-    font-weight: 400; /* Звичайний шрифт для всіх пунктів навігації */
+    font-weight: 400; 
     letter-spacing: 5%;
     color: #000;
 }
 
-/* HOME */
+
 .bold-text {
-    font-weight: 700; /* Жирний шрифт для HOME */
+    font-weight: 700;
     margin-top: -6px;
     font-size: 24.5px;
 }
 
-/* Основний контент */
+
 main {
     display: flex;
     flex: 1;
@@ -95,7 +95,7 @@ main {
     font-weight: 400;
 }
 
-/* Кнопки */
+
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -109,7 +109,7 @@ main {
     margin-bottom: 90px;
 }
 
-/* Кнопка GETTING STARTED */
+
 .getting-started {
     background-color: #3A86FF;
     color: white;
@@ -120,7 +120,7 @@ main {
     text-align: center;
 }
 
-/* Кнопка CALL US NOW */
+
 .call-us-now {
     background-color: #fff;
     border: 2px solid #3A86FF;
@@ -132,7 +132,7 @@ main {
     
 }
 
-/* Стилі кнопок при наведенні */
+
 .btn:hover {
     opacity: 0.9;
 }
@@ -156,7 +156,7 @@ footer {
     
 }
 
-/* Іконки соціальних мереж */
+
 .social-icons {
     display: flex;
     justify-content: center;
@@ -168,28 +168,28 @@ footer {
     width: 50px;
     height: 50px;
     margin-top: -150px;
-    background-color: #D3D3D3; /* Сірий фон */
-    border-radius: 50%; /* Закруглення для еліпсів */
-    padding: 15px; /* Відступи для простору навколо іконок */
+    background-color: #D3D3D3; 
+    border-radius: 50%; 
+    padding: 15px; 
     
 }
 
 #fiverr-icon, #netflix-icon {
-    background: none; /* Забирає сірий фон */
-    border: none; /* Забирає будь-які границі */
-    padding: 0; /* Забирає відступи */
-    width: 50px; /* Забезпечує автоматичне масштабування */
-    height: 50px; /* Забезпечує автоматичне масштабування */
+    background: none; 
+    border: none; 
+    padding: 0; 
+    width: 50px; 
+    height: 50px; 
 }
 
 
 
-/* Кнопка SIGN IN */
+
 .btn1, .btn2 {
     width: 125px;
     height: 34px;
     font-size: 25px;
-    font-weight: 400; /* Звичайний шрифт для кнопок */
+    font-weight: 400; 
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -197,14 +197,14 @@ footer {
     text-align: center;
 }
 
-/* SIGN IN */
+
 .btn1 {
     background-color: #fff;
     border: 2px solid #3A86FF;
     color: #3A86FF;
 }
 
-/* SIGN UP */
+
 .btn2 {
     background-color: #3A86FF;
     border: 2px solid #3A86FF;
